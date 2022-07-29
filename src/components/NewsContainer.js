@@ -16,19 +16,19 @@ function NewsContainer() {
                 const {abstract, headline: { main }, byline: { original }, 
                     lead_paragraph, news_desk, section_name, web_url, 
                     _id, word_count,} =article
-                // return (
-                //     <NewsList
-                //         key={_id}
-                //         abstract={abstract}
-                //         main={main}
-                //         original={original}
-                //         lead_paragraph={lead_paragraph}
-                //         news_desk={news_desk}
-                //         section_name={section_name}
-                //         web_url={web_url}
-                //         word_count={word_count}
-                //     />
-                // )
+                return (
+                    <NewsList
+                        key={_id}
+                        abstract={abstract}
+                        main={main}
+                        original={original}
+                        lead_paragraph={lead_paragraph}
+                        news_desk={news_desk}
+                        section_name={section_name}
+                        web_url={web_url}
+                        word_count={word_count}
+                    />
+                )
             })}
 
         </div>
