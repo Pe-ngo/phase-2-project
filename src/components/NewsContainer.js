@@ -10,29 +10,29 @@ function NewsContainer() {
             .then((articles) => setArticles(articles.response.docs))
     },[])
 
-//     return (
-//         <div>
-//             {articles.map(article => {
-//                 const {abstract, headline: { main }, byline: { original }, 
-//                     lead_paragraph, news_desk, section_name, web_url, 
-//                     _id, word_count,} =article
-//                 return (
-//                     <NewsList
-//                         key={_id}
-//                         abstract={abstract}
-//                         main={main}
-//                         original={original}
-//                         lead_paragraph={lead_paragraph}
-//                         news_desk={news_desk}
-//                         section_name={section_name}
-//                         web_url={web_url}
-//                         word_count={word_count}
-//                     />
-//                 )
-//             })}
+    return (
+        <div>
+            {articles.map(article => {
+                const {abstract, headline: { main }, byline: { original }, 
+                    lead_paragraph, news_desk, section_name, web_url, 
+                    _id, word_count,} =article
+                // return (
+                //     <NewsList
+                //         key={_id}
+                //         abstract={abstract}
+                //         main={main}
+                //         original={original}
+                //         lead_paragraph={lead_paragraph}
+                //         news_desk={news_desk}
+                //         section_name={section_name}
+                //         web_url={web_url}
+                //         word_count={word_count}
+                //     />
+                // )
+            })}
 
-//         </div>
-//     )
-//   }
+        </div>
+    )
+  }
   
-//   export default NewsContainer;
+  export default NewsContainer;
