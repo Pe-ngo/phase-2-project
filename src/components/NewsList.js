@@ -1,10 +1,10 @@
-// import React from "react";
+import React from "react";
 
 
-// function NewsList({ abstract, main, 
-//                     original, lead_paragraph, 
-//                     news_desk, section_name, 
-//                     web_url,word_count, }) {
+function NewsList({ abstract, main, 
+                    original, lead_paragraph, 
+                    news_desk, section_name, 
+                    web_url,word_count, }) 
 
 //     return (
 //         <div className="news-app">
@@ -24,4 +24,4 @@
 //     )
 // }
 
-// export default NewsList;
+export default NewsList;
