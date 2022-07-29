@@ -14,10 +14,10 @@ function NewsList({ abstract, main,
                     <p>{lead_paragraph}</p>
 
                     <ul>
-                        <li>{original}</li>
-                        <li>{news_desk}</li>
-                        <li>{section_name}</li>
-                        <li>{word_count}</li>
+                        <li><span>Author:</span>  {original}</li>
+                        <li><span>News Desk:</span>  {news_desk}</li>
+                        <li><span>Section Name:</span>  {section_name}</li>
+                        <li><span>Word Count:</span>  {word_count}</li>
                     </ul>
                 </div>
             </div>   
