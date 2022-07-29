@@ -1,15 +1,13 @@
 import React from "react";
 
 
-function NewsList({ abstract, main, 
-                    original, lead_paragraph, 
-                    news_desk, section_name, 
-                    web_url,word_count, }) {
+function NewsList({ abstract, main, original, lead_paragraph, 
+                    news_desk, section_name, word_count, }) {
 
     return (
             <div className="news-app">
                 <div className="new-list">
-                    <h2><a href={web_url}>{main}</a></h2>
+                    <h2>{main}</h2>
                     <h3>{abstract}</h3>
                     <p>{lead_paragraph}</p>
 

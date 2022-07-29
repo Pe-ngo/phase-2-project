@@ -1,17 +1,19 @@
 import React, { useState } from "react";
 
 
-function SearchForm() {
-    const [ enterText, setEnterText ] =useState("");
+function SearchForm({ searchNews }) {
+    const [news, setNews] = useState("");
 
 
     function handleSubmit(e) {
-        e.preventDefault()
+        e.preventDefault();
+
+        searchNews(news);
     }
 
 
     function handleChange(e) {
-        setEnterText({ ...enterText, [e.target.name]:e.target.value});
+        setNews(e.target.value);
       }
 
     return (
