@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import NewsList from "./NewsList";
+import SearchForm from "./SearchForm";
 
 function NewsContainer() {
     const [articles, setArticles] =useState([]);
@@ -15,6 +16,7 @@ function NewsContainer() {
             <div className="display">
                 <div className="display-section">
                     <h2>View Articles About Any Topic</h2>
+                    <SearchForm />
                 </div>
             </div>
 
