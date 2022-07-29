@@ -14,7 +14,7 @@ function NewsContainer() {
         <div>
             <div className="display">
                 <div className="display-section">
-                    <h1>View New York Times Articles About Any Topic</h1>
+                    <h2>View Articles About Any Topic</h2>
                 </div>
             </div>
 

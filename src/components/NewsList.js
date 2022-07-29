@@ -9,8 +9,8 @@ function NewsList({ abstract, main,
     return (
             <div className="news-app">
                 <div className="new-list">
-                    <h1><a href={web_url}>{main}</a></h1>
-                    <h4>{abstract}</h4>
+                    <h2><a href={web_url}>{main}</a></h2>
+                    <h3>{abstract}</h3>
                     <p>{lead_paragraph}</p>
 
                     <ul>
