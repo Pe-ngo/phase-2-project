@@ -43,6 +43,8 @@ body {
   background-color: white;
   padding: 15px;
   border-radius: 10px;
+  width: 80%;
+  margin: 0 auto;
 }
 
 .news-app .new-list ul {
