@@ -58,17 +58,17 @@ body {
 }
 
 .form-text input {
-  width: 80%;
+  width: 60%;
   padding: 5px;
   border: 1px solid #ccc;
-  border-radius: 5px;
+  border-radius: 5px 0px 0px 5px;
 }
 
-.form-text button {
+.form-text .submit-btn {
   width: 30%;
   padding: 5px;
   border: 1px solid #ccc;
-  border-radius: 5px;
+  border-radius: 0px 6px 6px 0px;
   background-color: blue;
   color: #000;
   font-weight: bold;
