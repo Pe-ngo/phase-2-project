@@ -7,8 +7,8 @@ function NavBar() {
         <nav className="nav-bar">
             <div className="nav-container">
                 <NavLink to="/">Home</NavLink>
-                <NavLink to="/Comments">Comments</NavLink>
-                <NavLink to="/About">About</NavLink>
+                <NavLink to="/comments">Comments</NavLink>
+                <NavLink to="/about">About</NavLink>
             </div>
         </nav>
     )

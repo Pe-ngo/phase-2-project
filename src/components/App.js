@@ -7,7 +7,7 @@ import Comments from "./Comments";
 
 function App() {
   return (
-    <div className="App">
+    <div>
       <Router>
         <div>
           <NavBar/>
@@ -15,8 +15,8 @@ function App() {
         
           <Routes>
             <Route exact path="/" element={<NewsContainer/>}></Route>
-            <Route exact path="/" element={<About/>}></Route>
-            <Route exact path="/" element={<Comments/>}></Route>
+            <Route exact path="/comments" element={<Comments/>}></Route>
+            <Route exact path="/about" element={<About/>}></Route>
           </Routes>
       </Router>
     </div>
