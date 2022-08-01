@@ -28,16 +28,18 @@ function NewsContainer() {
                     lead_paragraph, news_desk, section_name, _id, word_count,} =article
 
                 return (
-                    <NewsList
-                        key={_id}
-                        abstract={abstract}
-                        main={main}
-                        original={original}
-                        lead_paragraph={lead_paragraph}
-                        news_desk={news_desk}
-                        section_name={section_name}
-                        word_count={word_count}
-                    />
+                    <>
+                        <NewsList
+                            key={_id}
+                            abstract={abstract}
+                            main={main}
+                            original={original}
+                            lead_paragraph={lead_paragraph}
+                            news_desk={news_desk}
+                            section_name={section_name}
+                            word_count={word_count}
+                        />
+                    </>
                 )
             })}
         </div>
