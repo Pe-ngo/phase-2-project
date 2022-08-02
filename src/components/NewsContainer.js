@@ -24,13 +24,13 @@ function NewsContainer() {
             </div>
 
             {articles.map(article => {
-                const {abstract, headline: { main }, byline: { original }, 
-                    lead_paragraph, news_desk, section_name, word_count,} =article
+                const { headline: { main }, byline: { original }, abstract,
+                    lead_paragraph, news_desk, _id, section_name, word_count,} = article
 
                 return (
                     <>
-                        <NewsList 
-                            key={article._id}
+                        <NewsList
+                            key={_id} 
                             abstract={abstract}
                             main={main}
                             original={original}

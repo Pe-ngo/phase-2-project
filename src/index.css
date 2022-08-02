@@ -83,3 +83,21 @@ body {
   background-color: #000;
   color: #fff;
 }
+
+.nav-container {
+  margin-left: 100px;
+  padding: 50px;
+  display: flex;
+  justify-content: space-around;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.nav-link {
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  color: white;
+  background-color: #000;
+}
