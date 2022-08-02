@@ -16,7 +16,7 @@ function NewCommentForm({ addComment }) {
     }
     function handleSubmit(e) {
         e.preventDefault()
-        fetch("http://localhost:3002/comments", {
+        fetch("https://shrouded-refuge-64630.herokuapp.com/commentary", {
           method: "POST",
           headers: {
             "Content-Type": "application/json",

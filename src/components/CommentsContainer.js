@@ -17,7 +17,7 @@ function CommentsContainer() {
     }
 
     useEffect(() => {
-        fetch("http://localhost:3001/commentary")
+        fetch("https://shrouded-refuge-64630.herokuapp.com/commentary")
         .then((res) => res.json())
         .then((comments) => setComments(comments))
     }, [])
