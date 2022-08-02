@@ -5,7 +5,7 @@ import React from "react";
 function About() {
     return(
         <div className="about-app-container">
-            <h2>News App</h2>
+            <h1>News App</h1>
                 <p className="about-news-app">
                     This App utilizes New York Times API to enhance the accessibility of up-to-date news and articles 24/7. Users can access news and article by the New York Times by typing their topic of interest in the search form on the homepage.
                     Still, users can use the author's name or name of the character in order to search for various news and articles of interest.
