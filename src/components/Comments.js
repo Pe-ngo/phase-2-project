@@ -1,7 +1,10 @@
 import React from "react";
 
 
-function Comments() {
+
+function Comments({ commentry }) {
+
+
     return(
         <div>
             
