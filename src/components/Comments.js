@@ -10,9 +10,9 @@ function Comments({ commentry }) {
         <div className="comments-div">
             <div key={id} className="comments-list">
                 <img src={image} alt={image} />
-                <h2>Article Title: {title}</h2>
-                <p>Comment: {comment}</p>
-                <p>Commentor: {reader}</p>
+                <h2> {title}</h2>
+                <p><span>Comment:</span> {comment}</p>
+                <p><span>Commenter:</span> {reader}</p>
             </div>
         </div>
     )
