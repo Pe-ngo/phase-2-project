@@ -17,7 +17,7 @@ function CommentsContainer() {
     }
 
     useEffect(() => {
-        fetch("http://localhost:3000/commentary")
+        fetch("http://localhost:3001/commentary")
         .then((res) => res.json())
         .then((comments) => setComments(comments))
     }, [])
