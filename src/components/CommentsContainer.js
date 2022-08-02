@@ -17,7 +17,7 @@ function CommentsContainer() {
     }
 
     useEffect(() => {
-        fetch("https://react-news-1.herokuapp.com/comments")
+        fetch("http://localhost:3000/commentary")
         .then((res) => res.json())
         .then((comments) => setComments(comments))
     }, [])

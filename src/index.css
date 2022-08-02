@@ -90,7 +90,6 @@ body {
   display: flex;
   justify-content: space-around;
   font-size: 1.5rem;
-  font-weight: bold;
 }
 
 .nav-link {
@@ -176,9 +175,9 @@ body {
   margin-bottom: 20px;
 }
 
-.about-app-container h1 {
+.about-app-container h2 {
   color: blue;
-  margin-left: 500px;
+  margin-left: 480px;
 }
 
 .about-news-image {
