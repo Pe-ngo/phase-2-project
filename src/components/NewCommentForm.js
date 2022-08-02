@@ -45,7 +45,7 @@ function NewCommentForm({ addComment }) {
                 onChange={handleChanges}
                 value={commentForm.reader}
                 minlength="5"
-                autoComplete="none"
+                autoComplete="off"
                 required
             />
             
@@ -56,7 +56,7 @@ function NewCommentForm({ addComment }) {
                 onChange={handleChanges}
                 value={commentForm.title}
                 minlength="5"
-                autoComplete="none"
+                autoComplete="off"
                 required
             />
 
@@ -67,7 +67,7 @@ function NewCommentForm({ addComment }) {
                 onChange={handleChanges}
                 value={commentForm.comment}
                 minlength="5"
-                autoComplete="none"
+                autoComplete="off"
                 required
             />
 
@@ -76,9 +76,9 @@ function NewCommentForm({ addComment }) {
                 name="image"
                 placeholder="Image"
                 onChange={handleChanges}
-                value={commentForm.comment}
+                value={commentForm.image}
                 minlength="5"
-                autoComplete="none"
+                autoComplete="off"
                 required
             />
 

@@ -130,3 +130,37 @@ body {
   font-weight: bold;
   color: #000;
 }
+
+.comment-form {
+  background-color: white;
+  padding: 15px;
+  border-radius: 10px;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.comment-form input {
+  width: 60%;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 5px 5px 5px 5px;
+  margin: 5px;
+}
+
+.submit-button {
+  width: 30%;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 5px 5px 5px 5px;
+  background-color: blue;
+  color: #000;
+  font-weight: bold;
+}
+
+.show-form {
+  background-color: blue;
+  padding: 15px;
+  border-radius: 10px;
+  margin-left: 750px;
+  margin-bottom: 10px;
+}
