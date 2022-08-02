@@ -4,9 +4,20 @@ import React from "react";
 
 function About() {
     return(
-        <div>
-            
-        </div>
+        <div className="about-app-container">
+            <h1>News App</h1>
+                <p className="about-news-app">
+                    This App utilizes New York Times API to enhance the accessibility of up-to-date articles 24/7. Users can access <br/> any article by the New York Times by typing their topic of interest in the search form on the homepage.
+                    <br/> Still, users can use the author name or the name of the character the article is written about in order to search <br/> for the news.
+                    The app allow users to view comments by other users about particular articles as well as enable <br/>them to post their comments after reading an article.
+                </p>
+                
+                    <img
+                        className="about-news-image"
+                        src="https://images.pexels.com/photos/159652/table-food-book-newspaper-159652.jpeg?auto=compress&cs=tinysrgb&w=600"
+                        alt="About"
+                    />
+      </div>
     )
 }
 
