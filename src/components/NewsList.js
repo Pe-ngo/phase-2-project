@@ -5,8 +5,8 @@ function NewsList({ abstract, main, original, lead_paragraph,
                     news_desk, section_name, _id, word_count, }) {
 
     return (
-            <div className="news-app" key={_id}>
-                <div className="new-list">
+            <div className="news-app">
+                <div key={_id} className="new-list">
                     <h2>{main}</h2>
                     <h3>{abstract}</h3>
                     <p>{lead_paragraph}</p>
