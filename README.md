@@ -15,7 +15,7 @@
 
 ## Description
 
-This App utilizes New York Times API to enhance the accessibility of up-to-date articles 24/7. Users can access any article by the New York Times by typing their topic of interest in the search form on the homepage. Also, the app allow users to post their comments after reading any article which will be visible to anyone who visits the page.
+This App utilizes New York Times API to enhance the accessibility of up-to-date news via several articles by the New York Times 24/7. Users can access any article of their choice by the New York Times by typing their topic of interest or the name of the article in the search form on the homepage. Also, the app allow users to post their comments after reading an article which will be visible to anyone who visits the page.
 [Go Back to the top](#Moringa-School)
 
 ## Features
