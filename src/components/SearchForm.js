@@ -20,8 +20,11 @@ function SearchForm({ searchNews }) {
             <div className="search-form">
                 <form className="form-text" onSubmit={handleSubmit}>
                     <input type="text" 
-                        placeholder="e.g election"
+                        placeholder="e.g economy"
                         onChange={handleChange}
+                        autoComplete="none"
+                        required
+                        minlength="5"
                     />
                     <button type="submit" className="submit-btn">Search</button>
                 </form>
