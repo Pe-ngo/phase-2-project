@@ -164,3 +164,24 @@ body {
   margin-left: 750px;
   margin-bottom: 10px;
 }
+
+.about-app-container {
+  margin-left: 100px;
+  padding: 50px;
+  font-size: 1.5rem;
+  background-color: white;
+  border-radius: 10px;
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.about-app-container h1 {
+  color: blue;
+  margin-left: 500px;
+}
+
+.about-news-image {
+  width: 120vh;
+  margin-left: 170px;
+}
